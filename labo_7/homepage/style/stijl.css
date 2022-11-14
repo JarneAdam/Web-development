@@ -6,7 +6,7 @@ h1 {
 body {
     font-family: sans-serif;
     margin: 0 auto;
-    width: 1800px;
+    width: 1200px;
     background-color: black;
 }
 
@@ -17,19 +17,19 @@ li {
 }
 
 .personal {
-    width: 600px;
+    width: 400px;
     float: left;
     text-align: center;
 }
 
 .hobbies {
-    width: 600px;
+    width: 400px;
     float: left;
     text-align: center;
 }
 
 .likes {
-    width: 600px;
+    width: 400px;
     float: right;
     text-align: center;
 }

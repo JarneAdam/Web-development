@@ -1,7 +1,7 @@
 body {
     width: 1200px;
     margin: 0 auto;
-    font-family: sans-serif;
+    font-family: Verdana sans-serif;
 }
 
 section > header {
@@ -9,7 +9,6 @@ section > header {
     background-size: cover;
     color: white;
     font-size: 25px;
-    font-family: Verdana;
     height: 100px;
     padding-left: 10px;
 }
