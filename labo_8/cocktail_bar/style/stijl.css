@@ -1,19 +1,78 @@
-body{
+body {
     width: 95%;
-    align-content: center;
-    font-family: Verdana Helvetica Arial;
+    text-align:  center;
+    font-family: Verdana Helvetica Arial sans-serif;
     font-size: 1.2em;
 }
 
-.rest{
-    display: inline-block;
-    align-items: end;
-    width: 25%;
-
+h1, h2 {
+    color: #007e7e;
 }
 
-.main{
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+footer {
+    font-size: 50%;
+}
+
+.rest {
+    display: inline-block;
+    float: right;
+    width: 25%;
+    border: 3px solid #007e7e;
+}
+
+#guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 1px dashed white;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    background-size: 55px 55px;
+    font-style: italic;
+}
+p>a{
+    color: darkred;
+}
+
+.rest a{
+    color: saddlebrown;
+}
+.main {
     display: inline-block;
     width: 70%;
+    text-align: left;
+}
+
+.h1{
+    color: black;
+    background-image: url("../images/cocktail.gif");
+    background-position: top 0px;
+}
+
+.h2{
+    color: darkred;
+}
+
+.cursief{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+div{
+    display: inline-block;
+    float: bottom;
 }
 
