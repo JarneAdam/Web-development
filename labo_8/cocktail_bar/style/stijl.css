@@ -1,0 +1,12 @@
+body{
+    width: 95%;
+}
+
+article{
+    width: 25%;
+}
+
+section article{
+    width: 70%;
+}
+
