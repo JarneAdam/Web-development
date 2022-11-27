@@ -3,7 +3,11 @@ body {
     text-align:  center;
     font-family: Verdana Helvetica Arial sans-serif;
     font-size: 1.2em;
+}
 
+div{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 h1, h2 {
@@ -22,15 +26,18 @@ footer {
     font-size: 50%;
 }
 
-div{
-    display: flex;
-    flex-direction: row-reverse;
+
+.main {
+    width: 70%;
+    text-align: left;
 }
 
 .rest {
-    display: inline-block;
     width: 25%;
     border: 3px solid #007e7e;
+    background-image: url("../images/cocktail.gif");
+    background-size: 47px;
+    background-repeat: repeat-x;
 }
 
 #guarantee{
@@ -45,6 +52,7 @@ div{
     background-size: 55px 55px;
     font-style: italic;
 }
+
 p>a{
     color: darkred;
 }
@@ -52,16 +60,10 @@ p>a{
 .rest a{
     color: saddlebrown;
 }
-.main {
-    display: inline-block;
-    width: 70%;
-    text-align: left;
-}
 
 .h1{
     color: black;
-    background-image: url("../images/cocktail.gif");
-    background-position: top 0px;
+
 }
 
 .h2{
