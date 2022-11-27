@@ -1,12 +1,19 @@
 body{
     width: 95%;
+    align-content: center;
+    font-family: Verdana Helvetica Arial;
+    font-size: 1.2em;
 }
 
-article{
+.rest{
+    display: inline-block;
+    align-items: end;
     width: 25%;
+
 }
 
-section article{
+.main{
+    display: inline-block;
     width: 70%;
 }
 
