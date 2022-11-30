@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -27,6 +28,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -50,7 +52,9 @@
       <updated>1669539142217</updated>
       <workItem from="1669539144125" duration="2814000" />
       <workItem from="1669542221690" duration="3786000" />
-      <workItem from="1669546125993" duration="1751000" />
+      <workItem from="1669546125993" duration="2066000" />
+      <workItem from="1669548220344" duration="42000" />
+      <workItem from="1669814150302" duration="5612000" />
     </task>
     <servers />
   </component>
