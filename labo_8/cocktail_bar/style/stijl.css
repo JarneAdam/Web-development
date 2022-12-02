@@ -46,7 +46,10 @@ footer {
     color: #444444;
     background-color: #a7cece;
     border: 1px dashed white;
-    background: url("../images/background.gif");
+    padding-left: 60px;
+    background-image: url("../images/background.gif");
+    background-repeat: no-repeat;
+    background-size: 65px;
     font-style: italic;
 }
 
