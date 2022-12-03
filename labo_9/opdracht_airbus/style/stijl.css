@@ -1,10 +1,12 @@
 body {
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: #444444;
     background-image: url("../fotos/pagebackground.png");
     background-position: center;
-    font-family: Arial Helvetica sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .top {
@@ -13,30 +15,35 @@ body {
     background-image: url("../fotos/bgsky3.jpg");
     text-align: center;
     color: darkblue;
+    position: relative;
 }
 
 .top img {
-    z-index: -1;
-    float: right;
-    padding-right: 90px;
-    padding-bottom: 60px;
+    z-index: 3;
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
 }
 
 .top h1 {
     font-size: 300%;
     font-weight: bold;
     font-style: italic;
+    margin-top: 0;
 }
 
 .top h2 {
     font-size: 240%;
     font-weight: bold;
+    line-height: 80px;
 }
 
 .news {
     width: 250px;
     background-color: #dddddd;
     border: solid #999999 1px;
+    display: inline-block;
+
 }
 
 .news p {
@@ -62,8 +69,8 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 30px;
-
 }
+
 
 .logo {
     padding-top: 20px;
@@ -82,6 +89,8 @@ body {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .gallery img {
@@ -95,6 +104,8 @@ body {
     background-color: #666666;
     color: white;
     line-height: 2em;
+    width: 960px;
+    display: flex;
 }
 
 .bottom .block {
@@ -106,6 +117,7 @@ body {
 }
 
 .copyright {
+    width: 960px;
     text-align: center;
     color: black;
     background-color: white;
