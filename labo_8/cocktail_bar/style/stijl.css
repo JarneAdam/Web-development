@@ -1,8 +1,7 @@
 body {
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
     width: 95%;
     text-align:  center;
-    font-family: Verdana Helvetica Arial sans-serif;
-    font-size: 1.2em;
 }
 
 div{
@@ -40,17 +39,16 @@ footer {
     background-repeat: repeat-x;
 }
 
-#guarantee{
-    margin: 30px;
-    padding: 20px;
-    color: #444444;
-    background-color: #a7cece;
-    border: 1px dashed white;
-    padding-left: 60px;
-    background-image: url("../images/background.gif");
-    background-repeat: no-repeat;
-    background-size: 65px;
+#guarantee {
+    line-height: 1.9em;
     font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #444444;
+    border: 1px dashed white;
+    padding: 25px 25px 25px 80px;
+    margin: 30px;
+    background: url(../images/background.gif) no-repeat top left;
+    background-color: #a7cece;
 }
 
 p>a{
