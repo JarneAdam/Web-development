@@ -8,6 +8,7 @@ body {
     flex-wrap: wrap;
     box-shadow: #444444;
     background-image: url("../fotos/pagebackground.png");
+    background-repeat: repeat-y;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -44,8 +45,8 @@ body {
     width: 250px;
     background-color: #dddddd;
     border: solid #999999 1px;
-    display: inline-block;
-
+    box-sizing: border-box;
+    float: right;
 }
 
 .news p {
