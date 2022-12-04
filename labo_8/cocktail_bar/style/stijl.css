@@ -1,0 +1,79 @@
+body {
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
+    width: 95%;
+    text-align:  center;
+}
+
+div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+footer {
+    font-size: 50%;
+}
+
+
+.main {
+    width: 70%;
+    text-align: left;
+}
+
+.rest {
+    width: 25%;
+    border: 3px solid #007e7e;
+    background-image: url("../images/cocktail.gif");
+    background-size: 47px;
+    background-repeat: repeat-x;
+}
+
+#guarantee {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #444444;
+    border: 1px dashed white;
+    padding: 25px 25px 25px 80px;
+    margin: 30px;
+    background: url(../images/background.gif) no-repeat top left;
+    background-color: #a7cece;
+}
+
+p>a{
+    color: darkred;
+}
+
+.rest a{
+    color: saddlebrown;
+}
+
+.h1{
+    color: black;
+
+}
+
+.h2{
+    color: darkred;
+}
+
+.cursief{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
