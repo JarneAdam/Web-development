@@ -1,7 +1,13 @@
+div{
+    border: solid white;
+    height: 200px;
+}
 .row div:nth-child(even){
     background-color: darkgray;
+    color: darkgray;
 }
 
 .row div:nth-child(odd){
     background-color: lightgray;
+    color: lightgray;
 }
