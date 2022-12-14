@@ -1,9 +1,12 @@
-.container{
+.container {
     background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
-.container .block{
-    margin:50px;
-    padding:50px;
+.container .block {
+    margin: 50px;
+    padding: 50px;
     background-color: white;
 }

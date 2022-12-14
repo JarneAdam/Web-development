@@ -1,40 +1,42 @@
-html, body{
-    margin:0;
-    font-family:sans-serif;
-}
-main{
-    margin:10px;
+html, body {
+    margin: 0;
+    font-family: sans-serif;
 }
 
-main > header{
+main {
+    margin: 10px;
+}
+
+main > header {
     font-size: 2em;
-    font-weight:bold;
+    font-weight: bold;
     padding: 10px 20px;
     background-color: darkmagenta;
     color: floralwhite;
 }
 
-nav{
-    margin:10px;
+nav {
+    margin: 10px;
 }
 
-nav a{
-    display:block;
-    margin:10px;
-    padding:10px;
-    text-align:center;
+nav a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
     border-radius: 5px;
     border: darkgray 1px solid;
     box-shadow: 5px 3px 3px darkgray;
-    color:black;
-    text-decoration:none;
-    font-size:1.5em;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
     user-select: none;
 }
-nav a:hover{
+
+nav a:hover {
     background-color: lightgray;
 }
 
-nav a:active, nav a:focus{
+nav a:active, nav a:focus {
     background-color: darkgray;
 }
